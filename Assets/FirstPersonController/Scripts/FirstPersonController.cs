@@ -330,14 +330,14 @@ namespace StarterAssets
                 //ToDo: Hardcoded for now, make work with some 'SpeedManager', etc.
                 if (isCrouched)
                 {
-                    MoveSpeed = 4f;
+                    MoveSpeed = 1f;
                     SprintSpeed = 4f;
                     RotationSpeed = 0.8f;
                     SpeedChangeRate = 8f;
                 }
                 else
                 {
-                    MoveSpeed = 6f;
+                    MoveSpeed = 2f;
                     SprintSpeed = 9f;
                     RotationSpeed = 1f;
                     SpeedChangeRate = 10f;
